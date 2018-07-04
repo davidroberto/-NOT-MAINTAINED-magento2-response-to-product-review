@@ -1,0 +1,22 @@
+{
+    "name": "davidrobert/module-responsetoreview",
+    "description": "Allow the admin to add a response to a customer review",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Davidrobert\\ResponseToReview\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
